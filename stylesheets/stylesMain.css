@@ -1,0 +1,73 @@
+:root {
+    --primario: #33ff5f;
+    --morado: #bf00ff;
+}
+
+
+html {
+    /* 62.5% of 16px browser font size is 10px */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: rgb(242, 242, 242);
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    transition: all 0.2s ease;
+    display: flex;
+    background-color: #ffffffb0;
+    box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.1);
+}
+
+header:hover {
+    background-color: #ffffff;
+    display: flex;
+    box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.4);
+    transition: all 0.2s ease;
+}
+
+.titleLogo{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+h1 {
+    color: var(--morado);
+    font-size: 2.8rem;
+    margin: 0%;
+    font-family: Lexend;
+    margin-right: 0.8rem;
+}
+
+.navegacion-principal a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: var(--morado);
+    margin-inline: 0rem;
+    padding-block: 2.2rem;
+    padding-inline: 3rem;
+    transition: all 0.2s ease;
+
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--morado);
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.navegacion-principal {
+    display: flex;
+    margin-right: 2rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 8rem;
+}
+

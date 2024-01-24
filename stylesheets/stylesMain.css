@@ -1,6 +1,6 @@
 :root {
     --primario: #33ff5f;
-    --morado: #bf00ff;
+    --morado: #a200ff;
 }
 
 
@@ -12,27 +12,22 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    background-color: rgb(242, 242, 242);
     margin: 0%;
     padding: 0%;
+    background-color: #ffffff;
 }
 
 header {
     transition: all 0.2s ease;
     display: flex;
-    background-color: #ffffffb0;
-    box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.1);
+    background-color: #fbfbfb;
+    box-shadow: 0px 4px 23px rgba(0,0,0,1);
+    margin-bottom: 3rem;
 }
 
-header:hover {
-    background-color: #ffffff;
-    display: flex;
-    box-shadow: 0px 4px 13px -6px rgba(0,0,0,0.4);
-    transition: all 0.2s ease;
-}
 
 .titleLogo{
-    margin-left: 2rem;
+    margin-left: 12rem;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -46,15 +41,32 @@ h1 {
     margin-right: 0.8rem;
 }
 
+h2 {
+    font-size: 3rem;
+    margin: 0%;
+    color: var(--morado);
+}
+
+h3 {
+    font-size: 2.4rem;
+    margin: 0%;
+    color: var(--morado);
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
 .navegacion-principal a {
     font-size: 1.8rem;
     text-decoration: none;
-    color: var(--morado);
-    margin-inline: 0rem;
-    padding-block: 2.2rem;
-    padding-inline: 3rem;
+    color: #c300ff;
+    padding-block: 2rem;
+    padding-inline: 2.5rem;
     transition: all 0.2s ease;
-
+    font-weight: 700;
+    font-family: Open Sans;
 }
 
 .navegacion-principal a:hover {
@@ -65,9 +77,51 @@ h1 {
 
 .navegacion-principal {
     display: flex;
-    margin-right: 2rem;
     align-items: center;
     margin-left: auto;
-    margin-right: 8rem;
+    margin-right: 12rem;
 }
 
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    box-shadow: 0px -4px 13px -6px rgba(0,0,0,1);
+}
+
+footer p {
+    color: var(--morado);
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: Open Sans;
+    font-weight: 700;
+}
+
+
+main {
+    display: flex;
+    flex-direction:column;
+    margin-inline: 3rem;  
+}
+
+.SoyZeta {
+    background-color: #48ffc8;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+    width: 35rem;
+    text-align: center;
+    box-shadow: #0000003f 0px 0px 10px;
+}
+
+.laptopBg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    margin: 0%;
+    left: 0%;
+    top: 0%;
+}

@@ -134,7 +134,7 @@ main {
 }
 
 .laptopBg {
-    background-image: url(/img/laptop-background.png);
+    background-image: url(../img/laptop-background.png);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -290,7 +290,7 @@ h4 {
     flex-direction: row;
     text-align: center;
     align-items: center;
-    background-image: url(/img/laptop-background.png);
+    background-image: url(../img/laptop-background.png);
     background-size: cover;
 }
 

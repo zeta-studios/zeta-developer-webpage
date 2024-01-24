@@ -112,8 +112,8 @@ footer p {
     color: var(--primario);
     padding: 1rem;
     font-size: 1.2rem;
-    font-family: Open Sans;
-    font-weight: 700;
+    font-family: "Open Sans";
+    font-weight: 600;
 }
 
 
@@ -290,7 +290,7 @@ h4 {
     flex-direction: row;
     text-align: center;
     align-items: center;
-    background-image: url(../img/laptop-background.png);
+    background-image: url(../img/background\ 2.png);
     background-size: cover;
 }
 

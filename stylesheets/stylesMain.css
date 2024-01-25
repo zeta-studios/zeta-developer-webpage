@@ -387,3 +387,412 @@ h4 {
 .zetalogoform {
     font-size: 10vw;
 }
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1281px) {
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    h1 {
+        font-size: 4vw;
+    }
+    .titleLogo {
+        margin: 3vw;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+        padding: 0% ;
+    }
+    .navegacion-principal {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0%;
+        padding: 0%;
+    }
+    .navegacion-principal a {
+        font-size: 2.5vw;
+        width: 100%;
+        padding-inline: 100%;
+        border-top: solid .3rem #9a3ca593;
+    
+    }
+    .bigTitle {
+        font-size: 12vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
+    p {
+        font-size: 2.5vw;
+    }
+    h3 {
+        font-size:  2.5vw;
+    }
+    h4 {
+        font-size: 2.5vw;
+    }
+    .section-trabaja {
+        padding-inline: 2vw;
+    }
+    .section-ending {
+        padding-inline: 2vw;
+    }
+    .construyamosh2 h2 {
+        font-size: 7vw;
+    }
+
+    .logoform {
+        margin: 0%;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoform h2 {
+        margin-bottom: 0px;
+        font-size: 5vw;
+    }
+    .div-form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .section-contactame{
+        flex-direction: column;
+    }
+    .div-form form h2 {
+        font-size: 6vw;
+    }
+
+    .div-form form h4 {
+        font-size: 3vw;
+    }
+    #mailinput {
+        font-size: 2.5vw;
+        padding-block: 1vw;
+    }
+    .div-form form textarea {
+        font-size: 2vw;
+        height: 20vw;
+    }
+    .sumbit {
+        font-size: 3vw;
+        margin: 3vw 0 0 0;
+        width: 98.5%;
+        padding-block: 2vw;
+        padding-inline: 0%;
+    }
+    footer p {
+        font-size: 2vw;
+    }
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    h1 {
+        font-size: 4vw;
+    }
+    .titleLogo {
+        margin: 3vw;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+        padding: 0% ;
+    }
+    .navegacion-principal {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0%;
+        padding: 0%;
+    }
+    .navegacion-principal a {
+        font-size: 2.5vw;
+        width: 100%;
+        padding-inline: 100%;
+        border-top: solid .3rem #9a3ca593;
+    
+    }
+    .bigTitle {
+        font-size: 12vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
+    p {
+        font-size: 2.5vw;
+    }
+    h3 {
+        font-size:  2.5vw;
+    }
+    h4 {
+        font-size: 2.5vw;
+    }
+    .section-trabaja {
+        padding-inline: 2vw;
+    }
+    .section-ending {
+        padding-inline: 2vw;
+    }
+    .construyamosh2 h2 {
+        font-size: 7vw;
+    }
+
+    .logoform {
+        margin: 0%;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoform h2 {
+        margin-bottom: 0px;
+        font-size: 5vw;
+    }
+    .div-form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .section-contactame{
+        flex-direction: column;
+    }
+    .div-form form h2 {
+        font-size: 6vw;
+    }
+
+    .div-form form h4 {
+        font-size: 3vw;
+    }
+    #mailinput {
+        font-size: 2.5vw;
+        padding-block: 1vw;
+    }
+    .div-form form textarea {
+        font-size: 2vw;
+        height: 20vw;
+    }
+    .sumbit {
+        font-size: 3vw;
+        margin: 3vw 0 0 0;
+        width: 98.5%;
+        padding-block: 2vw;
+        padding-inline: 0%;
+    }
+    footer p {
+        font-size: 2vw;
+    }
+
+    
+  }
+  
+
+  
+  @media (min-width: 0px) and (max-width: 767px) {
+    
+    h1 {
+        font-size: 8vw;
+    }
+
+    .titleLogo {
+        margin: 3vw;
+    }
+
+    .titleLogo svg {
+        scale: 1.3;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+        padding: 0% ;
+    }
+    .navegacion-principal {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0%;
+        padding: 0%;
+    }
+    .navegacion-principal a {
+        font-size: 4.5vw;
+        width: 100%;
+        padding-inline: 50%;
+        border-top: solid .3rem #9a3ca593;
+    
+    }
+    .bigTitle {
+        font-size: 14vw;
+    }
+    h2 {
+        font-size: 8vw;
+    }
+    p {
+        font-size: 4.5vw;
+    }
+    h3 {
+        font-size:  5.5vw;
+    }
+    h4 {
+        font-size: 2.5vw;
+    }
+
+    .pfpimg {
+        scale: 1;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5vw;
+    }
+    .profileImage {
+        margin: 0%;
+    }
+
+    .div-quiensoy{
+        padding: 0%;
+        text-align: center;
+        border-left: none;
+        border-top: var(--primario) solid .3rem;
+        padding-top: 5vw;
+    }
+    .section-quiensoy {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-ofrezco {
+        flex-direction: column;
+    }
+    .div-ofrezco svg {
+        scale: 1.2;
+    }
+    .div-ofrezco h4 {
+        font-size: 5vw;
+    }
+
+    .section-trabaja {
+        padding-inline: 5vw;
+        flex-direction: column;
+    }
+    .section-ending {
+        padding-inline:5vw;
+        flex-direction: column-reverse;
+    }
+    .section-ending svg {
+        scale: .8;
+    }
+    .section-trabaja svg {
+        scale: .8;
+    }
+    .construyamosh2 h2 {
+        font-size: 9vw;
+    }
+
+    .logoform {
+        margin: 0%;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoform h2 {
+        margin-bottom: 0px;
+        font-size: 5vw;
+    }
+    .div-form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .div-form form {
+        padding: 6vw;
+        border-radius: 2vw;
+    }
+    .section-contactame{
+        flex-direction: column;
+    }
+    .div-form form h2 {
+        font-size: 9vw;
+    }
+
+    .div-form form h4 {
+        font-size: 4.5vw;
+        margin-top: 4vw;
+        margin-bottom: 2vw;
+    }
+    #mailinput {
+        font-size: 4vw;
+        padding-block: 2.5vw;
+        border-radius: 1vw;
+    }
+    .div-form form textarea {
+        font-size: 3.5vw;
+        height: 30vw;
+        border-radius: 1vw;
+    }
+    .sumbit {
+        font-size: 4.5vw;
+        margin: 3vw 0 0 0;
+        width: 98.5%;
+        padding-block: 2vw;
+        padding-inline: 0%;
+        border-radius: 1vw;
+    }
+    footer p {
+        font-size: 3.5vw;
+    }
+    .logoform svg {
+        scale: 0.6;
+    }
+    .logoform h2 {
+        font-size: 7vw;
+    }
+    
+  }

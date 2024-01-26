@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     spanishElements.forEach(function(element) {
         element.addEventListener('click', function() {
             // Redirecciona a la carpeta superior y luego a index-ES.html
-            window.location.href = '../index-ES.html';
+            window.location.href = '../ES.html';
         });
     });
 });

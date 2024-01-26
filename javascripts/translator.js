@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     englishElements.forEach(function(element) {
         element.addEventListener('click', function() {
             // Redirecciona a la carpeta superior y luego a index-EN.html
-            window.location.href = '/index.html';
+            window.location.href = 'index.html';
         });
     });
 
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     spanishElements.forEach(function(element) {
         element.addEventListener('click', function() {
             // Redirecciona a la carpeta superior y luego a index-ES.html
-            window.location.href = '/ES.html';
+            window.location.href = 'ES.html';
         });
     });
 });
